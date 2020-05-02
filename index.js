@@ -1,13 +1,13 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const token = process.env.token
-const prefix = ("$");
+const prefix = ("**");
 
 const index = require('./index.json');
 
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
-    bot.user.setActivity('$help > Mp Bot - Papers Bot').catch(console.error)
+    bot.user.setActivity('❤https://discord.gg/GbFmnt6').catch(console.error)
 });
 
 bot.on ('message', message => {
